@@ -1,0 +1,30 @@
+html{
+overflow-x:hidden;
+scroll-behavior:smooth;
+}
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+width:85%;
+margin:0 auto;
+}
+@media(max-width:600px){
+.container{
+width:95%;
+margin:0 auto;
+}
+}
+
+@import './navbar';
+@import './header';
+@import './details';
+@import './about';
+@import './fondatori';
+@import './prices';
+@import './faq';
+@import './contact';
+@import './footer';
